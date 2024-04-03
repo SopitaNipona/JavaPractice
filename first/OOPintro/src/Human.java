@@ -19,4 +19,9 @@ public class Human {
     void eat(){
         System.out.println("\"ñam ñam\" said: "+name);
     }
+
+    public String toString() {
+        String myString = name;
+        return myString;
+    }
 }
